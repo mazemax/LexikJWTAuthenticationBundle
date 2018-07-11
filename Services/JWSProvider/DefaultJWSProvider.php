@@ -87,7 +87,7 @@ class DefaultJWSProvider implements JWSProviderInterface
     {
         $header['alg'] = $this->signatureAlgorithm;
         $jws           = new JWS($header, $this->cryptoEngine);
-        $claims        = ['iat' => time()];
+        $claims        = ['iat' => "12345"];
 
         if (null !== $this->ttl) {
             $claims['exp'] = time() + $this->ttl;
