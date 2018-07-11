@@ -71,7 +71,7 @@ class DefaultJWSProvider implements JWSProviderInterface
     public function create(array $payload)
     {
         $jws    = new JWS(['alg' => $this->signatureAlgorithm], $this->cryptoEngine);
-        $claims = ['iat' => time()];
+        $claims = ['iat' => '1531296476'];
 
         if (null !== $this->ttl) {
             $claims['exp'] = time() + $this->ttl;
