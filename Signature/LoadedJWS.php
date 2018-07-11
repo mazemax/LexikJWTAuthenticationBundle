@@ -59,7 +59,7 @@ final class LoadedJWS
             $this->state = self::VERIFIED;
         }
 
-        $this->checkIssuedAt();
+//        $this->checkIssuedAt();
         $this->checkExpiration();
     }
 
@@ -128,8 +128,8 @@ final class LoadedJWS
      */
     private function checkIssuedAt()
     {
-        if (isset($this->payload['iat']) && (int) $this->payload['iat'] - $this->clockSkew > time()) {
-            return $this->state = self::INVALID;
-        }
+//        if (isset($this->payload['iat']) && (int) $this->payload['iat'] - $this->clockSkew > time()) {
+//            return $this->state = self::INVALID;
+//        }
     }
 }

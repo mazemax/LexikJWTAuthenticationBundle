@@ -1,7 +1,7 @@
 {
-    "name": "lexik/jwt-authentication-bundle",
+    "name": "lexik/jwt-authentication2-bundle",
     "type": "symfony-bundle",
-    "description": "This bundle provides JWT authentication for your Symfony REST API",
+    "description": "This bundle provides JWT authentication for my Symfony REST API",
     "keywords": ["Symfony", "bundle", "jwt", "jws", "authentication", "api", "rest"],
     "homepage": "https://github.com/lexik/LexikJWTAuthenticationBundle",
     "license": "MIT",
@@ -30,6 +30,11 @@
             "name": "Robin Chalas",
             "email": "robin.chalas@gmail.com",
             "homepage": "https://github.com/chalasr"
+        },
+        {
+            "name": "M.Saad Siddiqui",
+            "email": "to.msaads@gmail.com",
+            "homepage": "https://github.com/mazemax"
         },
         {
             "name": "Lexik Community",
