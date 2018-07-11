@@ -1,5 +1,5 @@
 {
-    "name": "lexik/jwt-authentication2-bundle",
+    "name": "msaads/jwt-authentication2-bundle",
     "type": "symfony-bundle",
     "description": "This bundle provides JWT authentication for my Symfony REST API",
     "keywords": ["Symfony", "bundle", "jwt", "jws", "authentication", "api", "rest"],
